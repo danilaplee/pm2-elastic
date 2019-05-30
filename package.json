@@ -14,8 +14,8 @@
   },
   "config" : {
     "elasticsearch_host" : "http://elasticsearch:9200",
-    "elasticsearch_index" : "logs",
-    "app_name" : "all"
+    "elasticsearch_index" : "bapp-logs",
+    "app_name" : "bapp"
   },
   "apps" : [{
     "merge_logs"         : true,
