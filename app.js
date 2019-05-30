@@ -4,6 +4,7 @@ const pm2 = require('pm2');
 const pmx = require('pmx');
 const packageJSON =  require('./package');
 const conf = pmx.initModule();
+console.info("==== pm2 elastic config =====", conf)
 const elasticLibModule = require('./libs/elasticsearch');
 const elasticLib = new elasticLibModule(conf.elasticsearch_host, conf.elasticsearch_index);
 /**
